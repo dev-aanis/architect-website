@@ -17,6 +17,7 @@
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
+    cursor: pointer;
 }
 /*shared style end here*/
 
@@ -25,7 +26,7 @@ header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 200px;
     max-width: 1400px;
-    /* height: 1100px; */
+    height: 1100px;
     margin: 0 auto;
 }
 nav{
@@ -37,7 +38,7 @@ nav{
 .nav-title{
     color: #131313;
     text-align: center;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
 }
 nav > ul {
@@ -45,7 +46,7 @@ nav > ul {
 }
 nav li {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 25px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -77,3 +78,35 @@ nav li a{
     max-width: 1000px;
 }
 /*banner content style style end here*/
+/*header section end here*/
+
+/*main section style start here*/
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    width: 1000px;
+    margin: 80px auto 150px auto;
+    align-items: center;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    width: 50%;
+}
+.team-text-container{
+    width: 50%;
+    padding: 0 50px;
+}
+/*main section style end here*/
+
+
+
+
+
+/*Responsive media style start here*/
+/*For Mobile Devices*/
+/*Responsive media style end here*/
