@@ -144,7 +144,59 @@ main{
     font-weight: 600;
 }
 /*Facts section end*/
+
+
+/*Sponsor section style start here*/
+.sponsor{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponsor h3{
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 140px;
+    margin-bottom: 18px;
+}
+.sponsor-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.sponsor-img-container img{
+    width: 120px;
+    height: 40px;
+}
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*Sponsor section style end here*/
+
 /*main section style end here*/
+
+/*Footer section style start here*/
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #FFF4E7;
+    /* text-align: center; */
+}
+.footer-description{
+    text-align: center;
+    margin: 80px 0 100px 0;
+    padding: 30px 0;
+
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+}
+/*Footer section style end here*/
 
 
 
