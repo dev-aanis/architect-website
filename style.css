@@ -85,6 +85,7 @@ main{
     max-width: 1400px;
     margin: 0 auto;
 }
+/*team section start*/
 .team-container{
     display: flex;
     width: 1000px;
@@ -101,6 +102,48 @@ main{
     width: 50%;
     padding: 0 50px;
 }
+/*team section end*/
+
+/*Facts section start*/
+.facts{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.facts h3{
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+}
+.facts-description{
+    width: 500px;
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 18px 0 80px 0;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.facts-card-container .card-no{
+    color: #424242;
+    font-size: 40px;
+    font-weight: 600;
+}
+.facts-card-container .card-title{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*Facts section end*/
 /*main section style end here*/
 
 
